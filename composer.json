@@ -1,0 +1,22 @@
+{
+  "name": "clientapi/armtek-rest-client",
+  "description": "Armtek HTTP клиент для работы с веб-сервисами (JSON или XML)",
+  "minimum-stability": "stable",
+  "keywords": ["armtek", "rest", "api"],
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Armtek ( http://ws.armtek.ru/?page=material&alias=rest-examples )",
+      "email": ""
+    },
+    {
+      "name": "Denis Sevostyanov",
+      "email": "den67rus@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ArmtekRestClient\\Http\\": "src/"
+    }
+  }
+}
